@@ -1,0 +1,10 @@
+{
+  "name": "apex-auto-delete-snapshot",
+  "description": "apex auto delete snapshot",
+  "nameTemplate": "{{.Function.Name}}",
+  "handler": "main.lambda_handler",
+  "memory": 128,
+  "timeout": 15,
+  "defaultEnvironment": "dev",
+  "runtime": "python"
+}
